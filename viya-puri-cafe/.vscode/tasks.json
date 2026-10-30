@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "1. Set up database", "type": "npm", "script": "setup", "problemMatcher": [], "presentation": { "panel": "dedicated" } },
+    { "label": "2. Create admin user", "type": "npm", "script": "create-admin", "problemMatcher": [], "presentation": { "panel": "dedicated", "focus": true } },
+    { "label": "3. Start server", "type": "npm", "script": "start", "problemMatcher": [], "isBackground": true, "presentation": { "panel": "dedicated" } },
+    { "label": "Start server (auto-restart on edits)", "type": "npm", "script": "dev", "problemMatcher": [], "isBackground": true, "presentation": { "panel": "dedicated" } },
+    { "label": "Run tests", "type": "npm", "script": "test", "problemMatcher": [], "group": "test", "presentation": { "panel": "dedicated" } }
+  ]
+}

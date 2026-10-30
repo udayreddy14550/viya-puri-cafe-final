@@ -1,0 +1,6 @@
+{
+  "search.exclude": { "uploads/**": true, "seed/images/**": true, "data/**": true },
+  "files.exclude": { "**/.DS_Store": true },
+  "files.eol": "\n",
+  "editor.tabSize": 2
+}

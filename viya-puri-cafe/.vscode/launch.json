@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Viya Puri Café (server)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/index.js",
+      "runtimeArgs": ["--disable-warning=ExperimentalWarning"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Run automated tests",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/test/app.test.js",
+      "runtimeArgs": ["--disable-warning=ExperimentalWarning", "--test"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

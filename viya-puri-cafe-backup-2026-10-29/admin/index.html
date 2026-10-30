@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#4a2c1a">
+<title>Dashboard · Viya Puri Café</title>
+<link rel="icon" href="/assets/logo.webp" type="image/webp">
+<link rel="stylesheet" href="/admin/assets/admin.css">
+</head>
+<body>
+<div class="app" id="app" data-nav="closed">
+  <div class="topbar">
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="side" aria-expanded="false">☰</button>
+    <b style="font-family:var(--display)">Viya Puri Café</b>
+  </div>
+  <aside class="side" id="side" aria-label="Admin navigation">
+    <div class="brand"><img src="/assets/logo.webp" alt="" width="46" height="46"><div><b>Viya Puri Café</b><span>Admin</span></div></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot"><div id="order-alert-settings"></div><span id="who"></span><a class="btn sm" href="/" target="_blank" rel="noopener">View website</a><button class="btn sm" id="logout" type="button">Sign out</button></div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+  <main class="main"><div class="content" id="view" tabindex="-1" aria-live="polite"></div></main>
+</div>
+<div id="toasts" aria-live="polite"></div>
+<script type="module" src="/admin/assets/app.js"></script>
+</body>
+</html>

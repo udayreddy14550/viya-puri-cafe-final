@@ -1,0 +1,1117 @@
+{
+  "config": {
+    "name": "Viya Puri Café",
+    "tagline": "Good Food. Good Mood.",
+    "announcement": "Free home delivery above ₹300 · Orders usually take around 15 minutes to prepare",
+    "address": [
+      "Beside SBI Bank, Lalitha Pitam",
+      "Chowdavaram – 522019"
+    ],
+    "phone": "+919014753530",
+    "phoneDisplay": "90147 53530",
+    "whatsapp": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Viya+Puri+Cafe+Chowdavaram+522019",
+    "social": {
+      "instagram": "",
+      "facebook": ""
+    },
+    "timezone": "Asia/Kolkata",
+    "hours": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "prepMinutes": 15,
+    "delivery": {
+      "enabled": true,
+      "freeAbove": 300,
+      "freeAboveBasis": "afterDiscount",
+      "fee": 20,
+      "minOrder": 0,
+      "pincodes": [
+        "522019"
+      ],
+      "confirmed": false
+    },
+    "pickup": {
+      "enabled": false
+    },
+    "coupons": [
+      {
+        "code": "WELCOME10",
+        "active": false,
+        "percent": 10,
+        "max": 50,
+        "min": 150,
+        "expires": null
+      },
+      {
+        "code": "CAFE20",
+        "active": false,
+        "percent": 20,
+        "max": 80,
+        "min": 250,
+        "expires": null
+      }
+    ],
+    "featured": [
+      "pani-puri-chaat--pani-puri",
+      "burgers--classic-cheese-veg-burger",
+      "thick-shakes--oreo-shake",
+      "mocktails--blue-curacao",
+      "lassi--mango-lassi",
+      "pani-puri-chaat--dahi-puri"
+    ],
+    "newItems": [],
+    "bestsellers": [],
+    "gallery": [],
+    "reviews": [],
+    "apiBase": "/api",
+    "orderingEnabled": false,
+    "contactEnabled": false,
+    "payments": [
+      {
+        "id": "cod",
+        "label": "Cash on delivery"
+      }
+    ]
+  },
+  "menu": {
+    "categories": [
+      {
+        "id": "mocktails",
+        "name": "Mocktails"
+      },
+      {
+        "id": "burgers",
+        "name": "Burgers"
+      },
+      {
+        "id": "pani-puri-chaat",
+        "name": "Pani Puri & Chaat"
+      },
+      {
+        "id": "desserts",
+        "name": "Desserts"
+      },
+      {
+        "id": "thick-shakes",
+        "name": "Thick Shakes"
+      },
+      {
+        "id": "lassi",
+        "name": "Lassi"
+      },
+      {
+        "id": "beverages",
+        "name": "Beverages"
+      }
+    ],
+    "items": [
+      {
+        "id": "mocktails--blue-curacao",
+        "cat": "Mocktails",
+        "name": "Blue Curaçao",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 59
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/mocktails--blue-curacao.webp",
+        "tint": "#9fd8f2",
+        "available": true,
+        "photoType": "representative",
+        "description": "A bright blue, citrusy cooler served chilled over ice."
+      },
+      {
+        "id": "mocktails--green-mojito",
+        "cat": "Mocktails",
+        "name": "Green Mojito",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 59
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/mocktails--green-mojito.webp",
+        "tint": "#b6e0a4",
+        "available": true,
+        "photoType": "representative",
+        "description": "Classic mint and lime mojito, fizzy, fresh and refreshing."
+      },
+      {
+        "id": "mocktails--green-apple-mojito",
+        "cat": "Mocktails",
+        "name": "Green Apple Mojito",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 59
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/mocktails--green-apple-mojito.webp",
+        "tint": "#c8e79a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Tangy green apple with cool mint and lime, topped with fizz."
+      },
+      {
+        "id": "mocktails--strawberry",
+        "cat": "Mocktails",
+        "name": "Strawberry",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 69
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 109
+          }
+        ],
+        "img": "/uploads/menu/mocktails--strawberry.webp",
+        "tint": "#f6a3b0",
+        "available": true,
+        "photoType": "representative",
+        "description": "Sweet strawberry mocktail with a fruity, chilled finish."
+      },
+      {
+        "id": "mocktails--bubble-gum",
+        "cat": "Mocktails",
+        "name": "Bubble Gum",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 59
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/mocktails--bubble-gum.webp",
+        "tint": "#f8b4d9",
+        "available": true,
+        "photoType": "representative",
+        "description": "A playful, sweet bubble gum flavoured cooler that kids love."
+      },
+      {
+        "id": "mocktails--orange",
+        "cat": "Mocktails",
+        "name": "Orange",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 59
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/mocktails--orange.webp",
+        "tint": "#ffc27a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Zesty orange mocktail, light, fizzy and refreshing."
+      },
+      {
+        "id": "mocktails--watermelon",
+        "cat": "Mocktails",
+        "name": "Watermelon",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 59
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/mocktails--watermelon.webp",
+        "tint": "#ff9a9a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Juicy watermelon cooler, perfect for a hot day."
+      },
+      {
+        "id": "mocktails--lime-mint",
+        "cat": "Mocktails",
+        "name": "Lime & Mint",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 59
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/mocktails--lime-mint.webp",
+        "tint": "#d6ec9a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Sharp lime with fresh mint, the simplest way to cool down."
+      },
+      {
+        "id": "mocktails--blueberry",
+        "cat": "Mocktails",
+        "name": "Blueberry",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 59
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/mocktails--blueberry.webp",
+        "tint": "#a9a6e8",
+        "available": true,
+        "photoType": "representative",
+        "description": "Sweet and slightly tart blueberry mocktail served ice cold."
+      },
+      {
+        "id": "burgers--classic-veg-burger",
+        "cat": "Burgers",
+        "name": "Classic Veg Burger",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 69
+          }
+        ],
+        "img": "/uploads/menu/burgers--classic-veg-burger.webp",
+        "tint": "#e6c08e",
+        "available": true,
+        "photoType": "representative",
+        "description": "Crisp veg patty with fresh veggies and sauce in a soft toasted bun."
+      },
+      {
+        "id": "burgers--classic-cheese-veg-burger",
+        "cat": "Burgers",
+        "name": "Classic Cheese Veg Burger",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 89
+          }
+        ],
+        "img": "/uploads/menu/burgers--classic-cheese-veg-burger.webp",
+        "tint": "#ffd77a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Our classic veg burger topped with a melty cheese slice."
+      },
+      {
+        "id": "burgers--chicken-burger",
+        "cat": "Burgers",
+        "name": "Chicken Burger",
+        "veg": false,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 89
+          }
+        ],
+        "img": "/uploads/menu/burgers--chicken-burger.webp",
+        "tint": "#e0a878",
+        "available": true,
+        "photoType": "representative",
+        "description": "Juicy crumb-fried chicken patty with fresh veggies and sauce in a toasted bun."
+      },
+      {
+        "id": "burgers--chicken-cheese-burger",
+        "cat": "Burgers",
+        "name": "Chicken Cheese Burger",
+        "veg": false,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 110
+          }
+        ],
+        "img": "/uploads/menu/burgers--chicken-cheese-burger.webp",
+        "tint": "#f0b860",
+        "available": true,
+        "photoType": "representative",
+        "description": "Crispy chicken patty with a slice of melted cheese, sauce and veggies."
+      },
+      {
+        "id": "burgers--aloo-tikki-burger",
+        "cat": "Burgers",
+        "name": "Aloo Tikki Burger",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 89
+          }
+        ],
+        "img": "/uploads/menu/burgers--aloo-tikki-burger.webp",
+        "tint": "#e8c98a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Spiced potato tikki with chutney and veggies in a soft toasted bun."
+      },
+      {
+        "id": "pani-puri-chaat--pani-puri",
+        "cat": "Pani Puri & Chaat",
+        "name": "Pani Puri",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 25
+          }
+        ],
+        "img": "/uploads/menu/pani-puri-chaat--pani-puri.webp",
+        "tint": "#c8e0a0",
+        "available": true,
+        "photoType": "representative",
+        "description": "Crisp puris filled with spicy, tangy pani. A street-food favourite."
+      },
+      {
+        "id": "pani-puri-chaat--masala-puri",
+        "cat": "Pani Puri & Chaat",
+        "name": "Masala Puri",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 35
+          }
+        ],
+        "img": "/uploads/menu/pani-puri-chaat--masala-puri.webp",
+        "tint": "#f0c070",
+        "available": true,
+        "photoType": "representative",
+        "description": "Crushed puris topped with spiced peas curry, onion, sev and chutneys."
+      },
+      {
+        "id": "pani-puri-chaat--sev-puri",
+        "cat": "Pani Puri & Chaat",
+        "name": "Sev Puri",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 35
+          }
+        ],
+        "img": "/uploads/menu/pani-puri-chaat--sev-puri.webp",
+        "tint": "#f2cf80",
+        "available": true,
+        "photoType": "representative",
+        "description": "Crisp puris layered with potato, onion, chutneys and a crunchy sev topping."
+      },
+      {
+        "id": "pani-puri-chaat--dahi-puri",
+        "cat": "Pani Puri & Chaat",
+        "name": "Dahi Puri",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 40
+          }
+        ],
+        "img": "/uploads/menu/pani-puri-chaat--dahi-puri.webp",
+        "tint": "#f6ead0",
+        "available": true,
+        "photoType": "representative",
+        "description": "Crisp puris filled with potato and chutneys, topped with cool sweet curd and sev."
+      },
+      {
+        "id": "pani-puri-chaat--chat",
+        "cat": "Pani Puri & Chaat",
+        "name": "Chat",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 35
+          }
+        ],
+        "img": "/uploads/menu/pani-puri-chaat--chat.webp",
+        "tint": "#f0c88a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Tangy, spicy and crunchy Indian street-style chaat with chutneys and sev."
+      },
+      {
+        "id": "pani-puri-chaat--dahi-chat",
+        "cat": "Pani Puri & Chaat",
+        "name": "Dahi Chat",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 50
+          }
+        ],
+        "img": "/uploads/menu/pani-puri-chaat--dahi-chat.webp",
+        "tint": "#f6ead0",
+        "available": true,
+        "photoType": "representative",
+        "description": "Chaat topped with chilled, lightly sweetened curd, chutneys and sev."
+      },
+      {
+        "id": "pani-puri-chaat--pav-bhaaji",
+        "cat": "Pani Puri & Chaat",
+        "name": "Pav Bhaaji",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 75
+          }
+        ],
+        "img": "/uploads/menu/pani-puri-chaat--pav-bhaaji.webp",
+        "tint": "#f2a860",
+        "available": true,
+        "photoType": "representative",
+        "description": "Buttery spiced mashed-vegetable bhaaji served with soft toasted pav."
+      },
+      {
+        "id": "desserts--butterscotch",
+        "cat": "Desserts",
+        "name": "Butterscotch",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "single",
+            "label": "Single",
+            "price": 39
+          },
+          {
+            "id": "double",
+            "label": "Double",
+            "price": 59
+          }
+        ],
+        "img": "/uploads/menu/desserts--butterscotch.webp",
+        "tint": "#f6d08a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Creamy butterscotch dessert with a caramel flavour and a hint of crunch."
+      },
+      {
+        "id": "desserts--chocolate",
+        "cat": "Desserts",
+        "name": "Chocolate",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "single",
+            "label": "Single",
+            "price": 39
+          },
+          {
+            "id": "double",
+            "label": "Double",
+            "price": 69
+          }
+        ],
+        "img": "/uploads/menu/desserts--chocolate.webp",
+        "tint": "#b88a6a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Rich, creamy chocolate dessert for true chocolate lovers."
+      },
+      {
+        "id": "desserts--strawberry",
+        "cat": "Desserts",
+        "name": "Strawberry",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "single",
+            "label": "Single",
+            "price": 39
+          },
+          {
+            "id": "double",
+            "label": "Double",
+            "price": 59
+          }
+        ],
+        "img": "/uploads/menu/desserts--strawberry.webp",
+        "tint": "#f6a3b8",
+        "available": true,
+        "photoType": "representative",
+        "description": "Smooth and creamy strawberry dessert with a sweet fruity taste."
+      },
+      {
+        "id": "desserts--american-nuts",
+        "cat": "Desserts",
+        "name": "American Nuts",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "single",
+            "label": "Single",
+            "price": 49
+          },
+          {
+            "id": "double",
+            "label": "Double",
+            "price": 79
+          }
+        ],
+        "img": "/uploads/menu/desserts--american-nuts.webp",
+        "tint": "#e6c08e",
+        "available": true,
+        "photoType": "representative",
+        "description": "Creamy dessert loaded with crunchy nuts."
+      },
+      {
+        "id": "desserts--belgium-choco",
+        "cat": "Desserts",
+        "name": "Belgium Choco",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "single",
+            "label": "Single",
+            "price": 49
+          },
+          {
+            "id": "double",
+            "label": "Double",
+            "price": 79
+          }
+        ],
+        "img": "/uploads/menu/desserts--belgium-choco.webp",
+        "tint": "#9a6a4a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Deep, rich Belgian-style chocolate dessert for chocolate lovers."
+      },
+      {
+        "id": "thick-shakes--butterscotch-shake",
+        "cat": "Thick Shakes",
+        "name": "Butterscotch Shake",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 139
+          }
+        ],
+        "img": "/uploads/menu/thick-shakes--butterscotch-shake.webp",
+        "tint": "#f6d08a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Thick, creamy shake with sweet butterscotch flavour."
+      },
+      {
+        "id": "thick-shakes--strawberry-shake",
+        "cat": "Thick Shakes",
+        "name": "Strawberry Shake",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 139
+          }
+        ],
+        "img": "/uploads/menu/thick-shakes--strawberry-shake.webp",
+        "tint": "#f6a3b8",
+        "available": true,
+        "photoType": "representative",
+        "description": "Thick, creamy strawberry shake, sweet and fruity."
+      },
+      {
+        "id": "thick-shakes--black-currant-shake",
+        "cat": "Thick Shakes",
+        "name": "Black Currant Shake",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 139
+          }
+        ],
+        "img": "/uploads/menu/thick-shakes--black-currant-shake.webp",
+        "tint": "#b9a0d8",
+        "available": true,
+        "photoType": "representative",
+        "description": "Thick and creamy shake with bold, tangy-sweet black currant flavour."
+      },
+      {
+        "id": "thick-shakes--oreo-shake",
+        "cat": "Thick Shakes",
+        "name": "Oreo Shake",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 149
+          }
+        ],
+        "img": "/uploads/menu/thick-shakes--oreo-shake.webp",
+        "tint": "#bdb0a6",
+        "available": true,
+        "photoType": "representative",
+        "description": "Thick, creamy shake blended with Oreo cookie crunch."
+      },
+      {
+        "id": "thick-shakes--kitkat-shake",
+        "cat": "Thick Shakes",
+        "name": "KitKat Shake",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 149
+          }
+        ],
+        "img": "/uploads/menu/thick-shakes--kitkat-shake.webp",
+        "tint": "#c8a080",
+        "available": true,
+        "photoType": "representative",
+        "description": "Thick, chocolatey shake blended with KitKat wafer crunch."
+      },
+      {
+        "id": "thick-shakes--chocolate-shake",
+        "cat": "Thick Shakes",
+        "name": "Chocolate Shake",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 149
+          }
+        ],
+        "img": "/uploads/menu/thick-shakes--chocolate-shake.webp",
+        "tint": "#a8785a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Thick, rich and creamy chocolate shake."
+      },
+      {
+        "id": "thick-shakes--belgium-shake",
+        "cat": "Thick Shakes",
+        "name": "Belgium Shake",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 169
+          }
+        ],
+        "img": "/uploads/menu/thick-shakes--belgium-shake.webp",
+        "tint": "#8a5a3a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Our richest chocolate shake, thick and indulgent with Belgian-style chocolate."
+      },
+      {
+        "id": "lassi--sweet-lassi",
+        "cat": "Lassi",
+        "name": "Sweet Lassi",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 50
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 89
+          }
+        ],
+        "img": "/uploads/menu/lassi--sweet-lassi.webp",
+        "tint": "#f6efd8",
+        "available": true,
+        "photoType": "representative",
+        "description": "Traditional chilled, thick and creamy sweet curd lassi."
+      },
+      {
+        "id": "lassi--butterscotch-lassi",
+        "cat": "Lassi",
+        "name": "Butterscotch Lassi",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 70
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/lassi--butterscotch-lassi.webp",
+        "tint": "#f6d08a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Chilled creamy lassi with a sweet butterscotch twist."
+      },
+      {
+        "id": "lassi--black-currant-lassi",
+        "cat": "Lassi",
+        "name": "Black Currant Lassi",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 70
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/lassi--black-currant-lassi.webp",
+        "tint": "#c0a8e0",
+        "available": true,
+        "photoType": "representative",
+        "description": "Chilled creamy lassi with tangy-sweet black currant flavour."
+      },
+      {
+        "id": "lassi--mango-lassi",
+        "cat": "Lassi",
+        "name": "Mango Lassi",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 70
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/lassi--mango-lassi.webp",
+        "tint": "#ffd060",
+        "available": true,
+        "photoType": "representative",
+        "description": "Thick, chilled lassi blended with sweet mango."
+      },
+      {
+        "id": "lassi--strawberry-lassi",
+        "cat": "Lassi",
+        "name": "Strawberry Lassi",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 70
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/lassi--strawberry-lassi.webp",
+        "tint": "#f6a3b8",
+        "available": true,
+        "photoType": "representative",
+        "description": "Chilled creamy lassi with sweet strawberry flavour."
+      },
+      {
+        "id": "lassi--rose-lassi",
+        "cat": "Lassi",
+        "name": "Rose Lassi",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 70
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/lassi--rose-lassi.webp",
+        "tint": "#f6b0c8",
+        "available": true,
+        "photoType": "representative",
+        "description": "Chilled creamy lassi with a fragrant rose flavour."
+      },
+      {
+        "id": "lassi--watermelon-lassi",
+        "cat": "Lassi",
+        "name": "Watermelon Lassi",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "medium",
+            "label": "Medium",
+            "price": 70
+          },
+          {
+            "id": "large",
+            "label": "Large",
+            "price": 99
+          }
+        ],
+        "img": "/uploads/menu/lassi--watermelon-lassi.webp",
+        "tint": "#ffa0a0",
+        "available": true,
+        "photoType": "representative",
+        "description": "Chilled creamy lassi with fresh watermelon flavour."
+      },
+      {
+        "id": "beverages--milk",
+        "cat": "Beverages",
+        "name": "Milk",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 15
+          }
+        ],
+        "img": "/uploads/menu/beverages--milk.webp",
+        "tint": "#f6efd8",
+        "available": true,
+        "photoType": "representative",
+        "description": "A hot cup of fresh milk."
+      },
+      {
+        "id": "beverages--tea",
+        "cat": "Beverages",
+        "name": "Tea",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 20
+          }
+        ],
+        "img": "/uploads/menu/beverages--tea.webp",
+        "tint": "#d8a870",
+        "available": true,
+        "photoType": "representative",
+        "description": "Classic hot milk tea, brewed fresh."
+      },
+      {
+        "id": "beverages--lemon-tea",
+        "cat": "Beverages",
+        "name": "Lemon Tea",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 20
+          }
+        ],
+        "img": "/uploads/menu/beverages--lemon-tea.webp",
+        "tint": "#f2e08a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Light hot tea with a refreshing squeeze of lemon."
+      },
+      {
+        "id": "beverages--green-tea",
+        "cat": "Beverages",
+        "name": "Green Tea",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 20
+          }
+        ],
+        "img": "/uploads/menu/beverages--green-tea.webp",
+        "tint": "#b6d8a0",
+        "available": true,
+        "photoType": "representative",
+        "description": "Light, soothing hot green tea."
+      },
+      {
+        "id": "beverages--ginger-tea",
+        "cat": "Beverages",
+        "name": "Ginger Tea",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 25
+          }
+        ],
+        "img": "/uploads/menu/beverages--ginger-tea.webp",
+        "tint": "#e6c070",
+        "available": true,
+        "photoType": "representative",
+        "description": "Hot tea brewed with fresh ginger, warming and comforting."
+      },
+      {
+        "id": "beverages--sonti-tea",
+        "cat": "Beverages",
+        "name": "Sonti Tea",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 25
+          }
+        ],
+        "img": "/uploads/menu/beverages--sonti-tea.webp",
+        "tint": "#d8a870",
+        "available": true,
+        "photoType": "representative",
+        "description": "Hot tea made with dry ginger (sonti), a warming, soothing favourite."
+      },
+      {
+        "id": "beverages--ilachi-tea",
+        "cat": "Beverages",
+        "name": "Ilachi Tea",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 25
+          }
+        ],
+        "img": "/uploads/menu/beverages--ilachi-tea.webp",
+        "tint": "#c8d890",
+        "available": true,
+        "photoType": "representative",
+        "description": "Hot milk tea flavoured with fragrant cardamom (ilachi)."
+      },
+      {
+        "id": "beverages--rose-milk",
+        "cat": "Beverages",
+        "name": "Rose Milk",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 25
+          }
+        ],
+        "img": "/uploads/menu/beverages--rose-milk.webp",
+        "tint": "#f6b0c8",
+        "available": true,
+        "photoType": "representative",
+        "description": "Chilled milk with sweet, fragrant rose flavour."
+      },
+      {
+        "id": "beverages--coffee",
+        "cat": "Beverages",
+        "name": "Coffee",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 25
+          }
+        ],
+        "img": "/uploads/menu/beverages--coffee.webp",
+        "tint": "#b8886a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Hot milk coffee, rich and comforting."
+      },
+      {
+        "id": "beverages--chocolate-milk",
+        "cat": "Beverages",
+        "name": "Chocolate Milk",
+        "veg": true,
+        "sizes": [
+          {
+            "id": "regular",
+            "label": "Regular",
+            "price": 25
+          }
+        ],
+        "img": "/uploads/menu/beverages--chocolate-milk.webp",
+        "tint": "#a8785a",
+        "available": true,
+        "photoType": "representative",
+        "description": "Creamy milk with sweet chocolate flavour."
+      }
+    ]
+  }
+}

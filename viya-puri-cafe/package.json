@@ -1,0 +1,19 @@
+{
+  "name": "viya-puri-cafe",
+  "version": "1.0.0",
+  "description": "Viya Puri Caf\u00e9 website with admin dashboard (zero-dependency Node.js + SQLite)",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "setup": "node --disable-warning=ExperimentalWarning scripts/init-db.js",
+    "init-db": "node --disable-warning=ExperimentalWarning scripts/init-db.js",
+    "create-admin": "node --disable-warning=ExperimentalWarning scripts/create-admin.js",
+    "add-descriptions": "node --disable-warning=ExperimentalWarning scripts/apply-descriptions.js",
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/app.test.js"
+  }
+}
